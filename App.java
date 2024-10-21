@@ -10,6 +10,7 @@ public class App {
         while (!scannedName.equals("Emma")) {
             System.out.println("Guess the name:");
             scannedName = scanner.nextLine();
+    //checking if its equal or not.
             if (scannedName.equals("Emma")) {
                 System.out.println("congratulation! you have guessed: " + guessCount + " time.");
 
