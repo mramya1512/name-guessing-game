@@ -6,6 +6,7 @@ public class App {
         String scannedName = "";
         String scannedChoice = "";
         int guessCount = 0;
+        // checking the condition if its equal to emma otherwise continue the loop.
         while (!scannedName.equals("Emma")) {
             System.out.println("Guess the name:");
             scannedName = scanner.nextLine();
